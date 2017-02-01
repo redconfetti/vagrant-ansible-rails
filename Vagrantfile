@@ -41,7 +41,10 @@ Vagrant.configure("2") do |config|
 
   # Create synced folder between this repositories 'app' folder and the
   # '/home/ubuntu/app' directory within the virtual machine
-  config.vm.synced_folder "app", "/home/ubuntu/app", type: 'nfs'
+  config.vm.synced_folder "app", "/home/ubuntu/app"
+
+  # NFS setup is recommended for efficient syncing. Requires private network config mentioned above.
+  # config.vm.synced_folder "app", "/home/ubuntu/app", type: 'nfs'
 
   # By default Vagrant creates a /vagrant folder. This disables the default synced folder
   config.vm.synced_folder '.', '/vagrant', disabled: true

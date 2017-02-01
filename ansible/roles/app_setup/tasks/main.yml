@@ -4,4 +4,4 @@
     name: bundler
     version: 1.14.3
     state: present
-    # executable: gem
+    executable: /home/ubuntu/.rvm/rubies/ruby-2.4.0/bin/gem

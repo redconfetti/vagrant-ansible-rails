@@ -13,6 +13,7 @@
 
   roles:
     - { role: common, tags: common }
-    - { role: nginx, tags: nginx }
+    # No need for Nginx web server for non web-apps
+    # - { role: nginx, tags: nginx }
     - { role: rvm_io.ruby, tags: ruby }
     - { role: app_setup, tags: app_setup }
