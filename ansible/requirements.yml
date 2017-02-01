@@ -1,0 +1,11 @@
+# Provides required roles needed by for this project, sourced from the Ansible Galaxy public repository
+# See https://galaxy.ansible.com/
+#
+# Use `ansible-galaxy install -r requirements.yml` from within the 'ansible' directory
+# to install these roles
+#
+
+# Install RVM (Ruby Version Manager) used to manage Ruby versions and gem-sets used by different Ruby applications / tools
+- src: rvm_io.ruby
+  name: rvm_io.ruby
+

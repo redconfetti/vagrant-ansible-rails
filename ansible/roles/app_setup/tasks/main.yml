@@ -1,0 +1,7 @@
+---
+# See Gem Module - http://docs.ansible.com/ansible/gem_module.html
+- gem:
+    name: bundler
+    version: 1.14.3
+    state: present
+    # executable: gem

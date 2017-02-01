@@ -1,0 +1,12 @@
+# Not used. Vagrant generates its own hosts file automatically within
+# .vagrant/provisioners/ansible/inventory/vagrant_ansible_inventory
+[web]
+127.0.0.1 ansible_python_interpreter=/usr/bin/python3
+
+[local:children]
+web
+
+[local:vars]
+  hostname=myapp-local
+  ansible_user=ubuntu
+  ansible_port=2222

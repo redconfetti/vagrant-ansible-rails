@@ -1,0 +1,9 @@
+[web]
+# IP Address of production server goes here
+# 4.2.2.1
+
+[production:children]
+web
+
+[production:vars]
+  hostname=myapp-prod

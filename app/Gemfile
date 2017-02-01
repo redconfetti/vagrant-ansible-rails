@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+# Uncomment this and run 'bundle install' to install Rails gem
+# Then use 'rails new myapp --database=postgresql'
+# gem 'rails', '~> 5.0.1'

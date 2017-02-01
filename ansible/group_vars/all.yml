@@ -1,0 +1,16 @@
+# user settings for application
+# www_root: /home/ubuntu/app
+# web_user: ubuntu
+# web_group: www-data
+
+# Ruby configuration
+# https://github.com/rvm/rvm1-ansible
+rvm1_rubies:
+  - 'ruby-2.4.0'
+rvm1_bundler_install: true
+rvm1_user: 'ubuntu'
+rvm1_rvm_version: 'stable'
+rvm1_rvm_check_for_updates: true
+rvm1_install_path: '~/.rvm'
+rvm1_symlink_to: '/home/ubuntu/bin'
+rvm1_install_flags: '--auto-dotfiles'
